@@ -97,7 +97,18 @@ body._lock {
 }
 
 ._cont {
-	max-width: $mw + 30px;
+	width: 100%;
+	max-width: $mw + 40px;
 	margin: 0 auto;
-	padding: 0 15px;
+	padding: 0 20px;
+	position: relative;
 }
+
+
+._cont_min {
+	width: 100%;
+	max-width: $min + 40px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
